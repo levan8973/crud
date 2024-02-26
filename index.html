@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="create.php" method="post">
+      <input type="text" name="name" id="name" />
+      <input type="text" name="email" id="email" />
+      <button type="submit">отправить</button>
+    </form>
+    <form action="read.php" method="post">
+      <button type="submit">запросить</button>
+    </form>
+    <form action="update.php" method="post">
+      <input type="text" name="newname" id="newname" />
+      <input type="text" name="id" id="id" />
+      <button type="submit">изменить</button>
+    </form>
+    <form action="delete.php" method="post">
+      <input type="text" name="delid" id="delid" />
+      <button type="submit">Удалить</button>
+    </form>
+  </body>
+</html>
